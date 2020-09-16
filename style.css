@@ -1,0 +1,74 @@
+html {
+    height: 90%;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+img {
+
+    width: 99%;
+}    
+
+.container {
+
+    height: 60%;
+    
+    display: grid;
+    
+    
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   
+   grid-template-areas: "foto1 foto2 foto3"
+                         "foto4 foto5 foto6"
+                         "foto7 foto8 foto9";
+
+   gap: 2px;
+   background-color: white;
+   
+}
+
+img:nth-of-type(1) {
+
+    height: 70%;
+    object-fit: cover;
+
+}
+
+img:nth-of-type(3) {
+
+    height: 70%;
+    object-fit: cover;
+}
+img:nth-of-type(4) {
+
+    height: 70%;
+    object-fit: cover;
+}
+img:nth-of-type(6) {
+
+    height: 70%;
+    object-fit: cover;
+}
+
+img:nth-of-type(7) {
+
+    height: 70%;
+    object-fit: cover;
+}
+
+img:nth-of-type(9) {
+
+    height: 70%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
